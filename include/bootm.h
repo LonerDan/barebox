@@ -34,6 +34,7 @@ struct bootm_data {
 	 * value of global.machine_id to Kernel.
 	 */
 	bool provide_machine_id;
+	bool fit_overlays;
 	unsigned long initrd_address;
 	unsigned long os_address;
 	unsigned long os_entry;
